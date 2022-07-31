@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik:wght@300;400;500;600;700;800;900&family=Source+Code+Pro:wght@300&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Ubuntu',sans-serif;
+  background-color: #d4f3ef;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+nav .sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+img{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 10px;
+  text-transform: uppercase;
+
+}
+nav ul li a{
+  color: Black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  display:flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+  transition: 0.1sec;
+}
+nav ul li a:hover{
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 10px 20px;
+  transition: 0.4s;
+}
+.container{
+  display: flex;
+  height: 550px;
+  background-color: black;
+  padding: 3px 200px;
+  justify-content: space-around;
+  align-items: center;
+  color:black
+}
+.Text-area{
+  width: 60%;
+}
+.Text-area h2{
+  color: white;
+  font-size: 50px;
+}
+.Text-area p{
+  color: white;
+  font-size: 20px;
+}
+.bgimg{
+  width: 40%;
+  
+}
+.bgimg img{
+  height: 350px;
+  width: 450px;
+  margin-left: 40px;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn3{
+    margin-left: 20px;
+}
+.btn3 a{
+  color: black;
+  text-decoration: none;
+}
+.btn3 a:hover{
+  color: #fff;
+}
+
+.container button:hover{
+  background-color:red;
+  color: white;
+  transition: 0.8s;
+
+}
+
+.about{
+  padding: 50px 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 50px;
+}
+.heading h1{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+.content{
+  margin-top: 30px;
+  margin-left: 170px;
+  padding: 30px;
+  border: 2px solid crimson;
+  border-radius: 4px;
+  background-color: azure;
+  width: 70%;
+}
+.content p{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.myquality{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ .skill{
+    width: 50%; 
+    margin-left: 50px;
+}
+.skill h2{
+  margin-left: 220px;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+.education h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+.education{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.right{
+    flex: 1;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-right: 30px;
+    padding: 60px 40px;
+    
+}
+.right .line{
+  margin-bottom: 15px;
+}
+.right .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right .info span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.right .bars{
+  background-color: lightgrey;
+  height: 10px;
+  width: 100%;
+  position: relative;
+}
+.right .bars::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  background-color: crimson;
+}
+.right .html::before{
+  width: 80%;
+}
+.right .css::before{
+  width: 60%;
+}
+.right .js::before{
+  width: 50%;
+}
+.right .cplus::before{
+  width: 60%;
+}
+
+.education .right2{
+  margin-top: 170px;
+  margin-right: 150px;
+
+}
+.education .left2{
+  
+  padding: 30px;
+  width: 70%;
+  margin-left:20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: left;
+}
+.headofedu{
+  margin-right: 50px;
+  margin-bottom: 30px; 
+}
+.headofedu2{
+  margin-top: 40px;
+  margin-left: 60px;
+
+}
+.date{
+  display: flex;
+}
+.edu{
+  padding: 15px;
+  background-color: lightsalmon;
+  border: 1px solid #111;
+}
+.first{
+  
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.second{
+  
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.third{
+  
+  border-radius: 6px;
+}
+.project{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.project h1{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+.row1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.common{
+  flex-basis: 30%;
+  /*border: 2px solid red;*/
+  position: relative;
+  padding: 20px;
+
+}
+.project_col1 img{
+  width: 95%;
+  height: 85%;
+  margin-right:50px;
+  border-radius: 10px;
+}
+.project_col2 img{
+  width: 95%;
+  height: 85%;
+  margin-right:40px;
+  border-radius: 10px
+}
+.project_col3 img{
+  width: 95%;
+  height: 85%;
+  margin-right:40px;
+  border-radius: 10px
+}
+.common h3{
+  margin:11px 0 ;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Ubuntu',sans-serif;
+}
+.common p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin: 15px;
+}
+.project .btn4{
+  background-color: crimson;
+  color: crimson;
+  border: 1px solid crimson;
+  border-radius: 3px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.btn4 a{
+  text-decoration: none;
+  color: #111;
+}
+
+.project .btn4:hover{
+  border:1px solid crimson;
+  color: crimson;
+  background-color: #fff ;
+  transition: 1s; 
+}
+.btn4 a:hover{
+  color: crimson;
+  transition: all 0.3s ease;
+}
+.contact{
+  padding: 90px 0;
+  padding-top:100px ;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact .title{
+  position: relative;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.contact .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform:translate(-50%)
+  
+}
+.contact .title::after{
+  content: "get in touch";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  padding: 5px;
+  color: crimson;
+  background: #fff;
+  transform:translate(-50%)
+  
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.contact .contact-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact .contact-content .column{
+  width: calc(50% - 30px);
+} 
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact .contact-content .left4 p{
+  text-align: justify;
+}
+.contact .contact-content .left4 .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 25px;
+  color: crimson;
+  margin-right: 20px;
+}
+.contact .contact-content .info .head1{
+  font-weight: 600;
+}
+.contact .contact-content .info .sub-title{
+  color: #333;
+}
+.contact .right3 form .fields{
+  display: flex;
+}
+.contact .right3 form .field,
+.contact .right3 form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right3 form .textarea{
+  height: 80px;
+  width: 100%;
+}
+.contact .right3 form .name1{
+  margin-right: 10px;
+}
+.contact .right3 form .email{
+  margin-left: 10px;
+}
+.contact .right3 form .field input,
+.contact .right3 form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 13px;
+  font-size: 15px;
+  font-family: 'Poppins',sans-serif;
+}
+.contact .right3 form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right3 form .button{
+  height: 47px;
+  width: 170px;
+}
+.contact .right3 form .button button{
+  width: 100%;
+  height: 100%;
+  border: 2px solid crimson;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contact .right3 form .button button:hover{
+  color: crimson;
+  background: none;
+
+}

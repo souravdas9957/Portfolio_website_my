@@ -1,0 +1,4 @@
+console.log('we are at tut 6');
+const name = 'Sourav';
+const greetng = 'Good Morning';
+console.log(greeting + name);
